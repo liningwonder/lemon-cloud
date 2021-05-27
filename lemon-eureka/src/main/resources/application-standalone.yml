@@ -1,0 +1,28 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: lemon-eureka
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    #不注册自己
+    registerWithEureka: false
+    #是否从eureka获取注册信息（集群视需要设置为true以同步节点间的注册数据）
+    fetchRegistry: false
+    service-url:
+      #交互地址，多个时,用逗号隔开
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+    #是否开启自我保护，生产环境设置true  测试环境看需要设置未false
+    enable-self-preservation: true
+    #检测间隔
+    eviction-interval-timer-in-ms: 5000

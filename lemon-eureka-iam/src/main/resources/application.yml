@@ -1,0 +1,53 @@
+server:
+  port: 9005
+
+spring:
+  application:
+    name: eureka-iam
+  cloud:
+    inetutils:
+      preferred-networks:
+        - 192.168.50.*
+
+eureka:
+  client:
+    serviceUrl:
+      #eureka地址
+      defaultZone: http://localhost:8761/eureka/
+    #启用健康检查
+    healthcheck:
+      enabled: true
+  instance:
+    #使用IP地址注册 否则的话使用的时hostname
+    prefer-ip-address: true
+    #${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+    #${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+    health-check-url-path: /actuator/health
+    status-page-url-path: /actuator/info
+    lease-expiration-duration-in-seconds: 5
+    lease-renewal-interval-in-seconds: 5
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    io:
+      lemon:
+        cloud:
+          eureka:
+            iam:
+              MallClient: debug
+
+#feign:
+    #  client:
+      #    config:
+        #      default:
+        #        connectTimeout: 5000
+        #        readTimeout: 5000
+        #        loggerLevel: basic

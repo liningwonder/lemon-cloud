@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b8743b3-8049-435a-8308-6743b2adf259" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\devops\repo" />
+        <option name="mavenHome" value="D:/devops/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\devops\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1t0caF25N85mfoazOrGx57PaA2y" />
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lemon-nacos-mall/src/main/resources" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.lemon.cloud.nacos.config.context" />
+      <recent name="io.lemon.cloud.eureka.iam.web" />
+      <recent name="io.lemon.cloud.common.token" />
+      <recent name="io.lemon.cloud.eureka.iam.service" />
+      <recent name="io.lemon.cloud.eureka.iam.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1BigData\lemon-cloud\lemon-nacos-mall\src\main\resources" />
+      <recent name="D:\1BigData\lemon-cloud\lemon-nacos" />
+      <recent name="D:\1BigData\lemon-cloud\lemon-eureka-mall\src\main\resources" />
+      <recent name="D:\1BigData\lemon-cloud\lemon-consul-iam\src\main\java\io\lemon\cloud\consul\iam\web" />
+      <recent name="D:\1BigData\lemon-cloud\lemon-consul-iam" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.NacosMallApplication">
+    <configuration name="LemonEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lemon-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.lemon.cloud.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.lemon.cloud.eureka.LemonEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LemonEurekaIamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lemon-eureka-iam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.lemon.cloud.eureka.iam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.lemon.cloud.eureka.iam.LemonEurekaIamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LemonEurekaMallApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lemon-eureka-mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.lemon.cloud.eureka.mall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.lemon.cloud.eureka.mall.LemonEurekaMallApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LemonGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lemon-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.lemon.cloud.gateway.LemonGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LemonIamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lemon-consul-iam" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.lemon.cloud.consul.iam.LemonIamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LemonNacosConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lemon-nacos-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.lemon.cloud.nacos.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.lemon.cloud.nacos.config.LemonNacosConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LemonZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lemon-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.lemon.cloud.zuul.LemonZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosIamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lemon-nacos-iam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.lemon.cloud.nacos.iam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.lemon.cloud.nacos.iam.NacosIamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosMallApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lemon-nacos-mall" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.lemon.cloud.nacos.mall.NacosMallApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NacosIamApplication" />
+        <item itemvalue="Spring Boot.LemonNacosConfigApplication" />
+        <item itemvalue="Spring Boot.LemonEurekaMallApplication" />
+        <item itemvalue="Spring Boot.LemonEurekaIamApplication" />
+        <item itemvalue="Spring Boot.LemonEurekaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="D:/devops/code/Lambda-Arch-Spark-master" value="PREVIEW" />
+        <entry key="D:/devops/code/mongo-spark-master" value="PREVIEW" />
+        <entry key="D:/devops/code/tradesys-engine-analytics-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.10997268" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a76fb4a1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a76fb4a1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@5cf0f859" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a76fb4a1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2a8be53" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a76fb4a1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@57656360" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b8743b3-8049-435a-8308-6743b2adf259" name="Default Changelist" comment="" />
+      <created>1621909508049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621909508049</updated>
+      <workItem from="1621909509808" duration="18951000" />
+      <workItem from="1621994706015" duration="18399000" />
+      <workItem from="1622085210717" duration="8629000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.13.RELEASE</version>
+        <relativePath/>
+    </parent>
+    <groupId>io.lemon</groupId>
+    <artifactId>lemon-cloud</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+    <description>Lemon Cloud</description>
+    <modules>
+        <module>lemon-eureka</module>
+        <module>lemon-zuul</module>
+        <module>lemon-gateway</module>
+        <module>lemon-eureka-iam</module>
+        <module>lemon-eureka-consume</module>
+        <module>lemon-consul-iam</module>
+        <module>lemon-common</module>
+        <module>lemon-eureka-mall</module>
+        <module>lemon-histrix</module>
+        <module>lemon-nacos-iam</module>
+        <module>lemon-nacos-mall</module>
+        <module>lemon-nacos-config</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <spring-cloud.version>Hoxton.SR11</spring-cloud.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>

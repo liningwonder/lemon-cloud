@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lemon-common" />
+        <module name="lemon-zuul" />
+        <module name="lemon-gateway" />
+        <module name="lemon-eureka" />
+        <module name="lemon-eureka-consume" />
+        <module name="lemon-nacos-mall" />
+        <module name="lemon-consul-iam" />
+        <module name="lemon-nacos-config" />
+        <module name="lemon-eureka-mall" />
+        <module name="lemon-nacos-iam" />
+        <module name="lemon-eureka-iam" />
+        <module name="lemon-histrix" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="lemon-consul" target="1.8" />
+      <module name="lemon-eureka-ha" target="1.8" />
+      <module name="lemon-nacos" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lemon-common" options="-parameters" />
+      <module name="lemon-consul" options="-parameters" />
+      <module name="lemon-consul-iam" options="-parameters" />
+      <module name="lemon-eureka" options="-parameters" />
+      <module name="lemon-eureka-consume" options="-parameters" />
+      <module name="lemon-eureka-ha" options="-parameters" />
+      <module name="lemon-eureka-iam" options="-parameters" />
+      <module name="lemon-eureka-mall" options="-parameters" />
+      <module name="lemon-gateway" options="-parameters" />
+      <module name="lemon-histrix" options="-parameters" />
+      <module name="lemon-nacos" options="-parameters" />
+      <module name="lemon-nacos-config" options="-parameters" />
+      <module name="lemon-nacos-iam" options="-parameters" />
+      <module name="lemon-nacos-mall" options="-parameters" />
+      <module name="lemon-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
