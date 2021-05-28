@@ -1,21 +1,21 @@
 package io.lemon.cloud.nacos.config.web;
 
-import io.lemon.cloud.nacos.config.context.SpringConfigContextUtil;
-import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+@RefreshScope
 @RestController
 public class ConfigController {
 
+
+    @Value("${useLocalCache:false}")
+    private boolean useLocalCache;
+
     @GetMapping("/config")
-    public String config() {
-        ConfigurableApplicationContext applicationContext = SpringConfigContextUtil.getApplicationContext();
-        String userName = applicationContext.getEnvironment().getProperty("user.name");
-        String userAge = applicationContext.getEnvironment().getProperty("user.age");
-        String projectName = applicationContext.getEnvironment().getProperty("project.name");
-        System.err.println("user name :" +userName+"; age: "+userAge);
-        return projectName;
+    public Boolean config() {
+        return useLocalCache;
     }
 
 }
