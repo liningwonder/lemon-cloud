@@ -1,0 +1,9 @@
+server:
+  port: 9020
+
+spring:
+  cloud:
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: 192.168.50.241:8080

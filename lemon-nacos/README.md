@@ -71,3 +71,21 @@ sh startup.sh -m standalone
 生产环境部署
 
 https://nacos.io/zh-cn/docs/deployment.html
+
+
+
+### 常用配置
+
+
+
+```
+spring.cloud.nacos.discovery.server-addr
+spring.cloud.nacos.discovery.service            #默认取${spring.application.name}
+spring.cloud.nacos.discovery.weight             #默认为1
+spring.cloud.nacos.discovery.network-interface  #网卡选择
+spring.cloud.nacos.discovery.ip                 #注册的IP
+spring.cloud.nacos.discovery.namespace          #配置namespace
+spring.cloud.nacos.discovery.metadata           #自定义元素据
+
+```
+

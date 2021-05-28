@@ -27,6 +27,7 @@
         <module>lemon-nacos-iam</module>
         <module>lemon-nacos-mall</module>
         <module>lemon-nacos-config</module>
+        <module>lemon-sentinel</module>
     </modules>
 
     <properties>
