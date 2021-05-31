@@ -23,11 +23,13 @@
         <module>lemon-consul-iam</module>
         <module>lemon-common</module>
         <module>lemon-eureka-mall</module>
-        <module>lemon-histrix</module>
+        <module>lemon-hystrix</module>
         <module>lemon-nacos-iam</module>
         <module>lemon-nacos-mall</module>
         <module>lemon-nacos-config</module>
         <module>lemon-sentinel</module>
+        <module>lemon-eureka-security</module>
+        <module>lemon-eureka-cluster</module>
     </modules>
 
     <properties>

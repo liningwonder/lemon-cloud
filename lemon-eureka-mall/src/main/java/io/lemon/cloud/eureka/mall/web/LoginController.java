@@ -27,6 +27,7 @@ public class LoginController {
     @Autowired
     private LoadBalancerClient loadBalancerClient;
 
+    //或者使用EurekaClient、DiscoveryClient等
     @Autowired
     private DiscoveryClient discoveryClient;
 

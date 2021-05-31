@@ -3,7 +3,11 @@ server:
 
 spring:
   application:
-    name: lemon-eureka
+    name: lemon-eureka-security
+  security:
+    user:
+      name: lemon-cloud
+      password: lemon-tree
   cloud:
     loadbalancer:
       ribbon:
@@ -12,9 +16,6 @@ spring:
 eureka:
   instance:
     hostname: localhost
-    #心跳时间间隔
-    lease-renewal-interval-in-seconds: 5
-    lease-expiration-duration-in-seconds: 5
   client:
     #不注册自己
     registerWithEureka: false

@@ -51,3 +51,8 @@ logging:
         #        connectTimeout: 5000
         #        readTimeout: 5000
         #        loggerLevel: basic
+#启用指定服务饥饿加载
+#ribbon:
+#  eager-load:
+#    enabled: true
+#    clients: lemon-iam
