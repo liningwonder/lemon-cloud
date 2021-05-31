@@ -1,5 +1,5 @@
 server:
-  port: 8040
+  port: 2013
 
 spring:
   application:
@@ -9,8 +9,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-    healthcheck:
-      enabled: true
+#    healthcheck:
+#      enabled: true
 #  instance:
     #    prefer-ip-address: true
     #    instance-id: ${spring.application.name}:${server.port}
@@ -19,16 +19,17 @@ eureka:
     #   lease-expiration-duration-in-seconds: 5
 #    lease-renewal-interval-in-seconds: 5
 
-
-zuul:
-  ignored-services: '*'
-  routes:
-    lemon-iam:
-      path: /iam/**
-      service-id: lemon-iam
+#http://127.0.0.1:2013/eureka-iam/iam/hello
+    #zuul:
+    #ignored-services: '*'
+      #routes:
+      #eureka-iam:
+      #path: /iam/**
+      #serviceId: eureka-iam
+      #service-id: lemon-iam
       #转发时带上路径
-      stripPrefix: false
+      #stripPrefix: false
 
-ribbon:
-  eureka:
-    enabled: false
+#ribbon:
+#  eureka:
+#    enabled: false
