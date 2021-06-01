@@ -16,6 +16,7 @@ public class HelloController {
     @Autowired
     private RestTemplate restTemplate;
 
+    //很多子类实现，最终会加载ConsulDiscoveryClient
     @Autowired
     private DiscoveryClient discoveryClient;
 

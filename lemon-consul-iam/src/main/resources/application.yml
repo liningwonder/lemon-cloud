@@ -10,5 +10,6 @@ spring:
       port: 8500
       discovery:
         service-name: consul-iam
-
+      #healthCheckPath:
+      #healthCheckInterval
 

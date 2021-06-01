@@ -30,6 +30,7 @@
         <module>lemon-sentinel</module>
         <module>lemon-eureka-security</module>
         <module>lemon-eureka-cluster</module>
+        <module>lemon-consul-config</module>
     </modules>
 
     <properties>

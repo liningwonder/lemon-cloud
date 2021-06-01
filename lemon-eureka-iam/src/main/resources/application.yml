@@ -1,6 +1,15 @@
 server:
   port: 9005
 
+#The default application name (that is, the service ID),  和eureka.instance.name的功能一样
+#but the defaults are fine if you ensure that your application has a value for spring.application.name
+#(this is the default for the Eureka service ID or VIP).
+#eureka.client.enabled
+#eureka.client.enabled 这两个可以用来是否开启Eureka Discovery Client
+
+
+
+#更多配置参考 EurekaInstanceConfigBean  EurekaClientConfigBean
 spring:
   application:
     name: eureka-iam
@@ -9,12 +18,15 @@ spring:
       preferred-networks:
         - 192.168.50.*
 
+#eureka.client.refresh.enable=false
+#By default, the EurekaClient bean is refreshable,
+# meaning the Eureka client properties can be changed and refreshed
 eureka:
   client:
     serviceUrl:
       #eureka地址
       defaultZone: http://localhost:8761/eureka/
-    #启用健康检查
+    #启用健康检查，而不是简单的使用网络心跳
     healthcheck:
       enabled: true
   instance:
@@ -22,6 +34,7 @@ eureka:
     prefer-ip-address: true
     #${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
     #${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+    #Eureka Instance ID
     instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
     health-check-url-path: /actuator/health
     status-page-url-path: /actuator/info

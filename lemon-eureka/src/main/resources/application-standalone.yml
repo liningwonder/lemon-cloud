@@ -1,10 +1,15 @@
 server:
   port: 8761
 
+#spring-cloud-starter-netflix-eureka-server and spring-cloud-starter-netflix-eureka-client
+#come along with a spring-cloud-starter-netflix-ribbon. Since Ribbon load-balancer
+#is now in maintenance mode, we suggest switching to using the
+#Spring Cloud LoadBalancer, also included in Eureka starters, instead.
 spring:
   application:
     name: lemon-eureka
   cloud:
+    #禁用Ribbon使用Spring Cloud LoadBalancer
     loadbalancer:
       ribbon:
         enabled: false
