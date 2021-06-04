@@ -31,6 +31,7 @@
         <module>lemon-eureka-security</module>
         <module>lemon-eureka-cluster</module>
         <module>lemon-consul-config</module>
+        <module>lemon-zuul-filter</module>
     </modules>
 
     <properties>
